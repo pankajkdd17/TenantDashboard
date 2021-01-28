@@ -1,0 +1,1277 @@
+/* // ======================SideBar Media Queries Start==================== */
+
+@media (max-width: 991.9px) {
+  .top-bar nav.navbar {
+    margin: 0 0 0 0px;
+  }
+  .top-bar nav.navbar ul.nav-list li>a {
+    padding: 5px 3px;
+  }
+  .top-bar nav.navbar ul.nav-list li.notifications>.dropdown-menu {
+    font-size: 15px;
+    -webkit-transform: translateX(60px);
+    transform: translateX(60px);
+  }
+  .top-bar nav.navbar ul.nav-list li.notifications>.dropdown-menu a {
+    margin: 30px 0 0px 30px;
+  }
+  .top-bar nav.navbar ul.nav-list li.notifications>.dropdown-menu a i {
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+  }
+  .top-bar nav.navbar ul.nav-list li.notifications>.dropdown-menu a i.fa-sms {
+    padding: 8px 0px;
+  }
+  .top-bar nav.navbar ul.nav-list li.notifications>.dropdown-menu a i.fa-glass-martini {
+    padding: 10px 0px;
+  }
+  .top-bar nav.navbar ul.nav-list li.SideBar>.dropdown-menu {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+  }
+  .wrapper .sidebar-left {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .messages .dropdown-menu {
+    transform: translateX(109px);
+  }
+  .wrapper .sidebar-left .sidebar-topbar i:first-child {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .wrapper .sidebar-left .sidebar-topbar>span {
+    display: none;
+  }
+  .wrapper .sidebar-left .side-menu ul.navbar-nav li.nav-item a.items-list span:first-child i {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .wrapper .sidebar-left .side-menu ul.navbar-nav li.nav-item a.items-list span.items-list-text {
+    display: none;
+  }
+  .wrapper .sidebar-left .side-menu ul.navbar-nav li.nav-item a.items-list span i.fa-chevron-down {
+    float: none;
+    margin: 4px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .wrapper .sidebar-left .side-menu ul.navbar-nav li.nav-item .sub-menu a.items-list1 {
+    padding: 10px 0 10px 0px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .wrapper.active .sidebar-left {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .wrapper.active .sidebar-left .side-menu ul.navbar-nav li.nav-item a.items-list span:first-child i {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .wrapper.active .sidebar-left .side-menu ul.navbar-nav li.nav-item a.items-list span i.fa-chevron-down {
+    margin: 4px 0 0 0;
+  }
+  .wrapper.active .sidebar-left .side-menu ul.navbar-nav li.nav-item .sub-menu a.items-list1 {
+    text-align: center;
+  }
+  .content {
+    margin: 80px 20px 0 20px;
+  }
+}
+
+@media (max-width: 575.9px) {
+  .wrapperactive table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .wrapper .content .message-details .btn-group1 {
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .wrapper .content .message-details .btn-group1 a {
+    padding: 5px 8px;
+    margin: 5px 2px;
+    font-size: 11px;
+  }
+  .wrapper .content .message-details .btn-group1 a i {
+    padding: 0 10px 0 0;
+  }
+  .wrapper .content .message-details .btn-group1 a:nth-child(3) i, .wrapper .content .message-details .btn-group1 a:nth-child(4) i {
+    padding: 0 0px 0 0;
+  }
+}
+
+/* // ======================Sidebar Media Queries Start==================== */
+
+/* // ======================Messages Media Queries Start==================== */
+
+@media (max-width: 1200px) {
+  .heading-messages h3 {
+    margin: 20px 0px 40px 10px;
+    font-size: 24px;
+  }
+  .breadcrumb {
+    padding: 10px 20px;
+    margin: 20px 10px;
+  }
+  .breadcrumb .breadcrumb-item {
+    font-size: 14px;
+  }
+  .content ul.nav.nav-pills {
+    margin: 15px 0 15px 0;
+  }
+  .content ul.nav.nav-pills li.nav-item {
+    margin: 0 5px;
+    padding: 5px 0;
+  }
+  .content ul.nav.nav-pills li.nav-item a.nav-link {
+    padding: 7px 13px;
+    font-size: 13px;
+  }
+  .content .inbox-header {
+    margin: 5px 2px;
+    text-align: center;
+  }
+  .content .inbox-header ul {
+    margin: 0;
+  }
+  .content .inbox-header .btn {
+    padding: 5px 20px;
+    margin: 10px 0;
+    font-size: 12px;
+  }
+  .content .inbox-header .dropdown .dropdown-menu {
+    min-width: 100px;
+    padding: 0;
+    z-index: 1;
+  }
+  .content .inbox-header .dropdown .dropdown-menu a.dropdown-item {
+    font-size: 12px;
+  }
+  .content table {
+    margin: 20px;
+    max-width: 95%;
+    text-align: center;
+  }
+  .content table tr td {
+    padding: 10px;
+    font-size: 12px;
+  }
+  .content table tr td:nth-child(1) input {
+    width: 10px;
+    vertical-align: middle;
+  }
+  .content table tr td:nth-child(2) i {
+    vertical-align: middle;
+  }
+  .content table tr td:nth-child(3) i {
+    font-size: 12px;
+    vertical-align: middle;
+  }
+  .content .page-navigation {
+    margin: 30px 30px 30px 0;
+  }
+  .content .page-navigation a:nth-child(1) i.fas {
+    font-size: 15px;
+    padding: 5px 20px;
+  }
+  .content .page-navigation a:nth-child(2) i.fas {
+    font-size: 15px;
+    padding: 5px 20px;
+  }
+  .content .compose-messages .compose-messages-border {
+    padding: 0px 0px;
+    margin: 5px;
+  }
+  .content .compose-messages .compose-messages-border ul.nav.nav-pills {
+    margin: 10px 0 10px 0;
+  }
+  .content .compose-messages .compose-messages-border ul.nav.nav-pills li.nav-item {
+    margin: 0 5px;
+  }
+  .content .compose-messages .compose-messages-border ul {
+    padding: 10px 0 20px 0;
+    text-align: center;
+  }
+  .content .compose-messages .compose-messages-border ul li a.btn {
+    padding: 5px 15px;
+    font-size: 13px;
+  }
+  .content .compose-messages .compose-messages-border form {
+    position: relative;
+    margin: 20px 10px;
+  }
+  .content .compose-messages .compose-messages-border form .compose-options {
+    padding: 6px 20px;
+    font-size: 10px;
+  }
+  .content .compose-messages .compose-messages-border form .form-group>label {
+    width: 50px;
+    padding: 7px 5px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .content .compose-messages .compose-messages-border form .form-group .form-control {
+    padding: 0 0 0 53px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .content .compose-messages .compose-messages-border .custom-file input {
+    height: 10px;
+  }
+  .content .compose-messages .compose-messages-border .custom-file .custom-file-label, .content .compose-messages .compose-messages-border .custom-file .custom-file-label::after {
+    height: 30px;
+    font-size: 11px;
+  }
+  .content .compose-messages .compose-messages-border ul.footer-btns {
+    padding: 20px 0 20px 0;
+  }
+  .content .compose-messages .compose-messages-border ul.footer-btns li a.btn {
+    padding: 5px 15px;
+  }
+  .content .message-details ul.text-center {
+    margin: 10px 0;
+  }
+  .content .message-details ul.text-center>li {
+    margin: 7px 10px;
+  }
+  .content .message-details ul.text-center>li>a.btn {
+    padding: 6px 16px;
+    font-size: 12px;
+  }
+  .content .message-details .message-details-text {
+    width: 98%;
+    margin: 0 auto 40px auto;
+  }
+  .content .message-details .message-details-text .md-heading {
+    padding: 20px 40px 20px 10px;
+  }
+  .content .message-details .message-details-text .md-heading h4 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .content .message-details .message-details-text .message-details-body {
+    padding: 10px 10px;
+  }
+  .content .message-details .message-details-text .message-details-body .media img {
+    width: 50px;
+    vertical-align: middle;
+    margin: 15px 0;
+  }
+  .content .message-details .message-details-text .message-details-body .media .media-body h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .content .message-details .message-details-text .message-details-body .media .media-body p {
+    font-size: 15px;
+    padding: 0;
+  }
+  .content .message-details .message-details-text .message-details-body .text-right p {
+    font-size: 14px;
+  }
+  .content .message-details .message-details-text .message-details-body .text>p {
+    font-size: 15px;
+  }
+  .content .message-details .message-details-text .message-details-footer {
+    padding: 10px 10px;
+  }
+  .content .message-details .message-details-text .message-details-footer i {
+    font-size: 15px;
+  }
+  .content .message-details .message-details-text .message-details-footer>span {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .content .message-details .message-details-text .message-details-footer>a {
+    font-size: 15px;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image {
+    padding: 0;
+    margin: 30px 10px;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image li img {
+    width: 40px;
+    font-size: 14px;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image li span {
+    font-size: 14px;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image li a {
+    font-size: 14px;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 {
+    margin: 0 10px 20px 0;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 a {
+    padding: 5px 10px;
+    margin: 5px 2px;
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 a i {
+    padding: 0 10px 0 0;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 a:nth-child(3) i, .content .message-details .message-details-text .message-details-footer .btn-group1 a:nth-child(4) i {
+    padding: 0 0px 0 0;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .content ul.nav.nav-pills li.nav-item a.nav-link {
+    padding: 7px 13px;
+    font-size: 12px;
+  }
+  .content .inbox-header .btn {
+    padding: 4px 16px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .heading-messages h3 {
+    margin: 10px 0px 30px 10px;
+    font-size: 24px;
+  }
+  .breadcrumb {
+    padding: 10px 20px;
+    margin: 0px 10px 20px 0;
+    max-width: 90%;
+  }
+  .breadcrumb .breadcrumb-item {
+    font-size: 14px;
+  }
+  .content ul.nav.nav-pills li.nav-item a.nav-link {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .content .inbox-header .btn {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .content .page-navigation a:nth-child(1) i.fas {
+    font-size: 13px;
+    padding: 5px 15px;
+  }
+  .content .page-navigation a:nth-child(2) i.fas {
+    font-size: 13px;
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width: 575.9px) {
+  .heading-messages h3 {
+    margin: 10px 0px 30px 10px;
+    font-size: 22px;
+  }
+  .breadcrumb {
+    padding: 10px 20px;
+    margin: 0px 10px 20px 10px;
+    max-width: 90%;
+  }
+  .breadcrumb .breadcrumb-item {
+    font-size: 13px;
+  }
+  .content ul.nav.nav-pills {
+    margin: 15px 0 5px 0;
+  }
+  .content ul.nav.nav-pills li.nav-item a.nav-link {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .content .inbox-header .btn {
+    margin: 10px 0 0 0;
+  }
+  .content .inbox-header .dropdown .dropdown-menu a.dropdown-item {
+    font-size: 11px;
+  }
+  .content table tr td {
+    padding: 5px;
+    font-size: 11px;
+  }
+  .content table tr td:nth-child(3) i {
+    font-size: 11px;
+  }
+  .content .page-navigation {
+    margin: 30px 30px 30px 0;
+  }
+  .content .page-navigation a:nth-child(1) i.fas {
+    font-size: 13px;
+    padding: 5px 15px;
+  }
+  .content .page-navigation a:nth-child(2) i.fas {
+    font-size: 13px;
+    padding: 5px 15px;
+  }
+  .content .compose-messages .compose-messages-border ul {
+    padding: 0 0 10px 0;
+  }
+  .content .compose-messages .compose-messages-border ul li a.btn {
+    font-size: 11px;
+  }
+  .content .compose-messages .compose-messages-border form .compose-options {
+    font-size: 11px;
+  }
+  .content .compose-messages .compose-messages-border form .form-group>label {
+    font-size: 10px;
+  }
+  .content .compose-messages .compose-messages-border form .form-group .form-control {
+    font-size: 10px;
+  }
+  .content .compose-messages .compose-messages-border ul.footer-btns li a.btn {
+    padding: 5px 15px;
+  }
+  .content .message-details ul.text-center {
+    margin: 10px 0;
+  }
+  .content .message-details ul.text-center>li {
+    margin: 0px 10px;
+  }
+  .content .message-details ul.text-center>li>a.btn {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text {
+    width: 98%;
+    margin: 20px auto 40px auto;
+  }
+  .content .message-details .message-details-text .md-heading {
+    padding: 20px 40px 20px 10px;
+  }
+  .content .message-details .message-details-text .md-heading h4 {
+    font-size: 16px;
+  }
+  .content .message-details .message-details-text .message-details-body {
+    padding: 10px 10px;
+  }
+  .content .message-details .message-details-text .message-details-body .media img {
+    width: 40px;
+  }
+  .content .message-details .message-details-text .message-details-body .media .media-body h5 {
+    font-size: 15px;
+  }
+  .content .message-details .message-details-text .message-details-body .media .media-body p {
+    font-size: 12px;
+  }
+  .content .message-details .message-details-text .message-details-body .text-right p {
+    font-size: 13px;
+  }
+  .content .message-details .message-details-text .message-details-body .text>p {
+    font-size: 14px;
+  }
+  .content .message-details .message-details-text .message-details-footer i {
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text .message-details-footer>span {
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text .message-details-footer>a {
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image {
+    padding: 0;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image li img {
+    width: 40px;
+    font-size: 14px;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image li span {
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text .message-details-footer ul.attachment-image li a {
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 a {
+    padding: 5px 10px;
+    margin: 5px 2px;
+    font-size: 11px;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 a i {
+    padding: 0 10px 0 0;
+  }
+  .content .message-details .message-details-text .message-details-footer .btn-group1 a:nth-child(3) i, .content .message-details .message-details-text .message-details-footer .btn-group1 a:nth-child(4) i {
+    padding: 0 0px 0 0;
+  }
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+/* // ======================Messages Media Queries End==================== */
+
+/* *********************Add New Button Media Queries Start here*********************** */
+
+@media (max-width: 991.9px) {
+  .box .add-new {
+    margin: 20px 0 10px 20px;
+  }
+  .box .add-new a {
+    padding: 5px 15px;
+    font-size: 11px;
+  }
+  .box .add-new a i {
+    font-size: 9px;
+  }
+  .box .tools-btns {
+    margin: 20px 20px 10px 0px;
+  }
+  .box .tools-btns a i {
+    padding: 6px 15px;
+    background-color: #ff3333;
+    color: #f0f0f0;
+    border-radius: 20px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .box .add-new a {
+    padding: 5px 12px;
+    font-size: 10px;
+  }
+  .box .add-new a i {
+    font-size: 8px;
+  }
+  .box .tools-btns a i {
+    padding: 7px 15px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 575.9px) {
+  .box .add-new {
+    margin: 20px 0 10px 5px;
+  }
+  .box .add-new a i {
+    font-size: 9px;
+  }
+  .box .tools-btns {
+    margin: 20px 5px 10px 0px;
+  }
+  .box .tools-btns a i {
+    padding: 7px 10px;
+  }
+}
+
+/* *********************Add New Button Media Queries End here*********************** */
+
+/* ****************************Bookings Media Queries Start here*************************** */
+
+@media (max-width: 991.9px) {
+  .content.booking-content table thead tr th {
+    font-size: 13px;
+    padding: 10px 5px;
+    line-height: 1;
+  }
+  .content.booking-content table thead tr th:nth-child(1) {
+    padding: 15px 20px;
+  }
+  .content.booking-content table tr td {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+  .content.booking-content table tr td:nth-child(1) img {
+    min-width: 20px;
+    max-width: 20px;
+  }
+  .content.booking-content table tr td:nth-child(8) a {
+    padding: 4px 8px;
+    font-size: 11px;
+  }
+  .content.booking-content table tr td:nth-child(9) a {
+    padding: 4px 8px;
+    font-size: 11px;
+  }
+  .content.booking-content table tr td:nth-child(10) a i.fa-trash-alt, .content.booking-content table tr td:nth-child(10) a i.fa-edit {
+    padding: 5px;
+    font-size: 8px;
+    margin: 1px 0;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .content.booking-content .box table thead tr th {
+    font-size: 11px;
+  }
+  .content.booking-content .box table tr td {
+    padding: 10px 3px;
+    font-size: 11px;
+  }
+  .content.booking-content .box table tr td:nth-child(8) a, .content.booking-content .box table tr td:nth-child(9) a {
+    padding: 3px 8px;
+    font-size: 9px;
+  }
+  .content.booking-content .box table tr td:nth-child(10) a i.fa-trash-alt, .content.booking-content .box table tr td:nth-child(10) a i.fa-edit {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 575.9px) {
+  .content.booking-content {
+    margin: 80px 0 0 0;
+  }
+  .content.booking-content .box table tr td:nth-child(8) a, .content.booking-content .box table tr td:nth-child(9) a {
+    font-size: 8px;
+  }
+}
+
+/* *******************************Bookings Media Queries End here**************************** */
+
+/* ****************************Listing Media Queries Start here************************** */
+
+@media (max-width: 991.9px) {
+  .content.listing-content table thead tr th {
+    font-size: 14px;
+  }
+  .content.listing-content table tr td {
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+  .content.listing-content table tr td:nth-child(1) img {
+    min-width: 20px;
+    max-width: 20px;
+  }
+  .content.listing-content table tr td:nth-child(7) a {
+    font-size: 10px;
+    padding: 2px 8px;
+  }
+  .content.listing-content table tr td:nth-child(10) a i.fa-trash-alt, .content.listing-content table tr td:nth-child(10) a i.fa-edit {
+    padding: 5px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .content.listing-content table thead tr th {
+    line-height: 1.2;
+    font-size: 13px;
+  }
+  .content.listing-content table tr td {
+    padding: 5px 5px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 575.9px) {
+  .content.listing-content table thead tr th {
+    line-height: 1.2;
+    font-size: 11px;
+  }
+  .content.listing-content table tr td {
+    padding: 5px 5px;
+    font-size: 11px;
+  }
+  .content.listing-content table tr td:nth-child(7) a {
+    font-size: 9px;
+    padding: 4px 8px;
+  }
+}
+
+/* ****************************Listing Media Queries End here************************** */
+
+/* ***********************Hotel Listing Add Details Media Queries End here********************** */
+
+@media (max-width: 1200px) {
+  .details-text h4 {
+    font-size: 20px;
+    margin: 0px 20px;
+    padding: 20px 0;
+  }
+  .flight-listing-form .form-row, .car-listing-form .form-row, .cruise-listing-form .form-row, .tour-listing-form .form-row, .hotel-listing-form .form-row {
+    padding: 0;
+  }
+  .flight-listing-form .form-row .col-md, .car-listing-form .form-row .col-md, .cruise-listing-form .form-row .col-md, .tour-listing-form .form-row .col-md, .hotel-listing-form .form-row .col-md {
+    padding: 0;
+  }
+  .flight-listing-form .form-row .col-md select option, .car-listing-form .form-row .col-md select option, .cruise-listing-form .form-row .col-md select option, .tour-listing-form .form-row .col-md select option, .hotel-listing-form .form-row .col-md select option {
+    padding: 0px;
+  }
+  .flight-listing-form .form-row .col-md:nth-child(1), .car-listing-form .form-row .col-md:nth-child(1), .cruise-listing-form .form-row .col-md:nth-child(1), .tour-listing-form .form-row .col-md:nth-child(1), .hotel-listing-form .form-row .col-md:nth-child(1) {
+    padding: 0 10px 0 0;
+  }
+  .flight-listing-form form, .car-listing-form form, .cruise-listing-form form, .tour-listing-form form, .hotel-listing-form form {
+    max-width: 95%;
+  }
+  .flight-listing-form form .form-group, .car-listing-form form .form-group, .cruise-listing-form form .form-group, .tour-listing-form form .form-group, .hotel-listing-form form .form-group {
+    margin-bottom: 40px;
+  }
+  .flight-listing-form form .form-group>label, .car-listing-form form .form-group>label, .cruise-listing-form form .form-group>label, .tour-listing-form form .form-group>label, .hotel-listing-form form .form-group>label {
+    font-size: 13px;
+    width: 140px;
+    padding: 9px 10px;
+  }
+  .flight-listing-form form .form-group .form-control, .car-listing-form form .form-group .form-control, .cruise-listing-form form .form-group .form-control, .tour-listing-form form .form-group .form-control, .hotel-listing-form form .form-group .form-control {
+    padding: 0 0 0 150px;
+  }
+  .flight-listing-form form .form-group input, .flight-listing-form form .form-group .custom-select, .car-listing-form form .form-group input, .car-listing-form form .form-group .custom-select, .cruise-listing-form form .form-group input, .cruise-listing-form form .form-group .custom-select, .tour-listing-form form .form-group input, .tour-listing-form form .form-group .custom-select, .hotel-listing-form form .form-group input, .hotel-listing-form form .form-group .custom-select {
+    font-size: 13px;
+  }
+  .flight-listing-form form .input-group-text, .car-listing-form form .input-group-text, .cruise-listing-form form .input-group-text, .tour-listing-form form .input-group-text, .hotel-listing-form form .input-group-text {
+    font-size: 13px;
+    width: 140px;
+  }
+  .flight-listing-form form i.fa-angle-down, .car-listing-form form i.fa-angle-down, .cruise-listing-form form i.fa-angle-down, .tour-listing-form form i.fa-angle-down, .hotel-listing-form form i.fa-angle-down {
+    right: 15px;
+  }
+  .flight-listing-form form ul li:nth-child(1) button, .flight-listing-form form ul li:nth-child(2) button, .car-listing-form form ul li:nth-child(1) button, .car-listing-form form ul li:nth-child(2) button, .cruise-listing-form form ul li:nth-child(1) button, .cruise-listing-form form ul li:nth-child(2) button, .tour-listing-form form ul li:nth-child(1) button, .tour-listing-form form ul li:nth-child(2) button, .hotel-listing-form form ul li:nth-child(1) button, .hotel-listing-form form ul li:nth-child(2) button {
+    padding: 5px 20px;
+  }
+  .flight-listing-form form textarea, .car-listing-form form textarea, .cruise-listing-form form textarea, .tour-listing-form form textarea, .hotel-listing-form form textarea {
+    font-size: 15px;
+  }
+  .flight-listing-form .dropzone, .car-listing-form .dropzone, .cruise-listing-form .dropzone, .tour-listing-form .dropzone, .hotel-listing-form .dropzone {
+    text-align: center;
+    border: 2px dashed #999999;
+    margin-bottom: 40px;
+  }
+  .flight-listing-form .dropzone .fa-cloud-upload-alt, .car-listing-form .dropzone .fa-cloud-upload-alt, .cruise-listing-form .dropzone .fa-cloud-upload-alt, .tour-listing-form .dropzone .fa-cloud-upload-alt, .hotel-listing-form .dropzone .fa-cloud-upload-alt {
+    font-size: 50px;
+    margin: 0px 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  .flight-listing-form .dropzone .dz-message, .car-listing-form .dropzone .dz-message, .cruise-listing-form .dropzone .dz-message, .tour-listing-form .dropzone .dz-message, .hotel-listing-form .dropzone .dz-message {
+    font-size: 15px;
+    color: #1a1a1a;
+  }
+  .flight-listing-form .dropzone .dz-message p, .car-listing-form .dropzone .dz-message p, .cruise-listing-form .dropzone .dz-message p, .tour-listing-form .dropzone .dz-message p, .hotel-listing-form .dropzone .dz-message p {
+    font-size: 20px;
+    margin: 0px 0 10px 0;
+  }
+}
+
+@media (max-width: 991.9px) {
+  .details-text h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .hotel-listing-form .form-row {
+    padding: 0;
+  }
+  .hotel-listing-form .form-row .col-md {
+    padding: 0;
+  }
+  .hotel-listing-form .form-row .col-md select option {
+    padding: 0px;
+  }
+  .hotel-listing-form .form-row .col-md:nth-child(1) {
+    padding: 0 0px 0 0;
+  }
+  .hotel-listing-form form {
+    max-width: 90%;
+  }
+  .hotel-listing-form form textarea {
+    font-size: 13px;
+  }
+  .hotel-listing-form form ul li:nth-child(1) button, .hotel-listing-form form ul li:nth-child(2) button {
+    padding: 5px 20px;
+    font-size: 11px;
+  }
+  .hotel-listing-form .dropzone .fa-cloud-upload-alt {
+    font-size: 45px;
+  }
+  .hotel-listing-form .dropzone .dz-message {
+    font-size: 14px;
+    color: #1a1a1a;
+  }
+  .hotel-listing-form .dropzone .dz-message p {
+    font-size: 19px;
+    margin: 0px 0 10px 0;
+  }
+}
+
+@media (max-width: 575.9px) {
+  .hotel-listing-form form .form-group {
+    margin-bottom: 20px;
+  }
+  .hotel-listing-form form .form-group>label {
+    font-size: 11px;
+    width: 115px;
+    height: 30px;
+    padding: 9px 10px;
+  }
+  .hotel-listing-form form .form-group .form-control {
+    padding: 0 0 0 120px;
+    height: 30px;
+  }
+  .hotel-listing-form form .form-group input, .hotel-listing-form form .form-group .custom-select {
+    font-size: 11px;
+    height: 30px;
+  }
+  .hotel-listing-form form .input-group-text {
+    font-size: 11px;
+    width: 115px;
+    height: 30px;
+  }
+  .hotel-listing-form .textarea {
+    font-size: 11px;
+  }
+  .hotel-listing-form ul li:nth-child(1) button, .hotel-listing-form ul li:nth-child(2) button {
+    margin: 20px 0 0 0;
+    font-size: 10px;
+  }
+  .hotel-listing-form .dropzone {
+    margin-bottom: 20px;
+  }
+  .hotel-listing-form .dropzone .fa-cloud-upload-alt {
+    font-size: 35px;
+  }
+  .hotel-listing-form .dropzone .dz-message {
+    font-size: 12px;
+  }
+  .hotel-listing-form .dropzone .dz-message p {
+    font-size: 15px;
+  }
+}
+
+/* ***********************Hotel Listing Add Details Media Queries End here********************* */
+
+/* ****************************Profile Media Queries Start Here************************** */
+
+@media (max-width: 1200px) {
+  .content.profile .hotel-listing-form .form-group label {
+    width: 145px;
+    font-size: 11px;
+    height: 30px;
+    padding: 4px 0;
+  }
+  .content.profile .hotel-listing-form .form-group .form-control {
+    padding: 0 0 0 105px;
+    height: 30px;
+  }
+  .content.profile .hotel-listing-form .form-group .textarea {
+    font-size: 14px;
+  }
+  .content.profile .upload-photo-wrapper .upload-heading h5 {
+    font-size: 18px;
+  }
+  .content.profile .upload-photo-wrapper .dropzone .dz-message p {
+    font-size: 16px;
+  }
+  .content.view-profile .heading-part {
+    padding: 0 0px 30px 0;
+  }
+  .content.view-profile .heading-part p {
+    font-size: 15px;
+  }
+  .content.view-profile .details-part {
+    padding: 0 0px 30px 0;
+  }
+  .content.view-profile .details-part p {
+    font-size: 15px;
+  }
+  .content.view-profile .personal-info h6 {
+    font-size: 15px;
+  }
+  .content.view-profile .personal-info p {
+    padding: 0 0 0 40px;
+    font-size: 14px;
+  }
+  .content.view-profile .upload-photo-wrapper .upload-heading h5 {
+    font-size: 16px;
+  }
+  .content.view-profile .upload-photo-wrapper .dropzone {
+    padding: 0;
+  }
+  .content.view-profile .upload-photo-wrapper .dropzone .dz-message {
+    margin: 0;
+    padding: 14px 0;
+  }
+  .content.view-profile .upload-photo-wrapper .dropzone .dz-message h1 {
+    font-size: 90px;
+    margin: 0;
+  }
+  .content.change-password .profile-padding {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .content.view-profile .heading-part p {
+    font-size: 14px;
+  }
+  .content.view-profile .details-part p {
+    font-size: 14px;
+  }
+  .content.view-profile .personal-info h6 {
+    font-size: 14px;
+  }
+  .content.view-profile .personal-info p {
+    font-size: 13px;
+  }
+  .content.view-profile .upload-photo-wrapper .upload-heading h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .content.profile .hotel-listing-form .form-group label {
+    width: 125px;
+    font-size: 11px;
+    height: 30px;
+    padding: 4px 0;
+    text-align:left;
+   
+  }
+  .content.profile .hotel-listing-form .form-group .form-control {
+    padding: 0 0 0 105px;
+    height: 30px;
+  }
+  .content.profile .hotel-listing-form .form-group .textarea {
+    font-size: 14px;
+  }
+  .content.profile .upload-photo-wrapper {
+    padding: 20px 0 0 0;
+  }
+  .content.profile .upload-photo-wrapper .upload-heading h5 {
+    font-size: 18px;
+  }
+  .content.profile .upload-photo-wrapper .dropzone .dz-message p {
+    font-size: 16px;
+  }
+  .content.view-profile .box {
+    padding: 30px 10px;
+  }
+  .content.view-profile .heading-part p {
+    padding-left: 5px;
+    font-size: 13px;
+  }
+  .content.view-profile .details-part p {
+    font-size: 13px;
+  }
+  .content.view-profile .personal-info h6 {
+    padding-left: 5px;
+    font-size: 14px;
+  }
+  .content.view-profile .personal-info p {
+    padding: 0 0 0 15px;
+    font-size: 13px;
+  }
+  .content.view-profile .upload-photo-wrapper .upload-heading h5 {
+    font-size: 15px;
+  }
+  .content.change-password .profile-padding {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* ****************************Profile Media Queries End Here************************** */
+
+/* ****************************Users Media Queries End Here************************** */
+
+@media (max-width: 991.9px) {
+  .users-list table tr td:nth-child(8) a {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+  .users-list table tr td:nth-child(9) a i.fa-trash-alt, .users-list table tr td:nth-child(9) a i.fa-edit {
+    padding: 5px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .users-list table tr td:nth-child(8) a {
+    font-size: 9px;
+    padding: 3px 8px;
+  }
+  .users-list table tr td:nth-child(9) a i.fa-trash-alt, .users-list table tr td:nth-child(9) a i.fa-edit {
+    padding: 5px;
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 576px) {
+  .users-list table tr td:nth-child(8) a {
+    font-size: 8px;
+    padding: 3px 8px;
+  }
+  .users-list table tr td:nth-child(9) a i.fa-trash-alt, .users-list table tr td:nth-child(9) a i.fa-edit {
+    padding: 5px;
+    font-size: 8px;
+  }
+}
+
+/* ****************************Users Media Queries End Here************************** */
+
+/* ****************************Reviews Media Queries Start Here************************** */
+
+@media (max-width: 1200px) {
+  .reviews-body ul {
+    padding: 0 30px;
+  }
+  .reviews-body ul li {
+    list-style-type: none;
+  }
+  .reviews-body .media {
+    margin: 50px 0;
+  }
+  .reviews-body .media img {
+    max-width: 70px;
+  }
+  .reviews-body .media .media-body h5 {
+    margin: 10px 0 10px 0;
+    font-size: 19px;
+  }
+  .reviews-body .media .media-body h5 small {
+    font-weight: 600;
+    font-size: 13px;
+    font-style: italic;
+  }
+  .reviews-body .media .media-body p {
+    margin: 0;
+    font-size: 14px;
+    text-align: justify;
+    font-weight: 600;
+    color: #4d4d4d;
+    padding-left: 10px;
+  }
+  .reviews-body .media .media-body i {
+    font-size: 13px;
+    margin: 0px 0 20px 3px;
+  }
+  .reviews-body .media .media-body i {
+    color: #ffa500;
+  }
+  .reviews-body .media .media-body p.text-sm-right, .reviews-body .media .media-body span {
+    font-style: italic;
+    font-weight: 600;
+    color: #666666;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews-body ul {
+    padding: 0 30px;
+  }
+  .reviews-body ul li {
+    list-style-type: none;
+  }
+  .reviews-body .media {
+    margin: 50px 0;
+  }
+  .reviews-body .media img {
+    max-width: 60px;
+  }
+  .reviews-body .media .media-body h5 {
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+  }
+  .reviews-body .media .media-body h5 small {
+    font-weight: 600;
+    font-size: 12px;
+    font-style: italic;
+  }
+  .reviews-body .media .media-body p {
+    margin: 0;
+    font-size: 13px;
+    text-align: justify;
+    font-weight: 600;
+    color: #4d4d4d;
+    padding-left: 10px;
+  }
+  .reviews-body .media .media-body i {
+    font-size: 12px;
+    margin: 0px 0 20px 3px;
+  }
+  .reviews-body .media .media-body i {
+    color: #ffa500;
+  }
+  .reviews-body .media .media-body p.text-sm-right, .reviews-body .media .media-body span {
+    font-style: italic;
+    font-weight: 600;
+    color: #666666;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .reviews-body ul {
+    padding: 0 10px;
+  }
+  .reviews-body ul li {
+    list-style-type: none;
+  }
+  .reviews-body .media {
+    margin: 50px 0;
+  }
+  .reviews-body .media img {
+    max-width: 60px;
+  }
+  .reviews-body .media .media-body h5 {
+    margin: 10px 0 10px 0;
+    font-size: 17px;
+  }
+  .reviews-body .media .media-body h5 small {
+    font-weight: 600;
+    font-size: 11px;
+    font-style: italic;
+  }
+  .reviews-body .media .media-body p {
+    margin: 0;
+    font-size: 12px;
+    text-align: justify;
+    font-weight: 600;
+    color: #4d4d4d;
+    padding-left: 10px;
+  }
+  .reviews-body .media .media-body i {
+    font-size: 11px;
+    margin: 0px 0 20px 3px;
+  }
+  .reviews-body .media .media-body i {
+    color: #ffa500;
+  }
+  .reviews-body .media .media-body p.text-sm-right, .reviews-body .media .media-body span {
+    font-style: italic;
+    font-weight: 600;
+    color: #666666;
+    font-size: 13px;
+    float: none;
+  }
+}
+
+/* ****************************Reviews Media Queries End Here************************** */
+
+/* ****************************Dashboard Media Queries Start Here************************** */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .dashboard-bookings table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+
+@media (max-width: 1200px) {
+  .dashbaord .box .dashboard-box {
+    margin: 10px 0;
+  }
+  .dashbaord .box .dashboard-box h4 {
+    font-size: 21px;
+  }
+  .dashbaord .box .dashboard-box h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashbaord .dashboard-box h4 {
+    font-size: 20px;
+  }
+  .dashbaord .dashboard-box h1 {
+    font-size: 25px;
+  }
+  .dashbaord .dashboard-box .progress-bar:after {
+    height: 15px;
+    font-size: 10px;
+  }
+  .dashbaord .dashboard-box p {
+    font-size: 12px;
+  }
+  .dashbaord .dashboard-bookings .box {
+    margin: 0 10px;
+  }
+  .dashbaord .dashbaord-reviews.box {
+    margin: 10px 10px;
+  }
+  .dashbaord .charts-section {
+    margin: 0px 5px;
+  }
+  .dashbaord .charts-section canvas {
+    margin: 0px 0px 0px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .dashbaord .box {
+    padding: 20px 0px;
+  }
+  .dashbaord .box .dashboard-wrapper {
+    padding: 0 10px;
+  }
+  .dashbaord .box .dashboard-box h4 {
+    font-size: 20px;
+  }
+  .dashbaord .box .dashboard-box h1 {
+    font-size: 25px;
+  }
+  .dashbaord .box .dashboard-box .progress-bar:after {
+    height: 12px;
+    font-size: 8px;
+  }
+  .dashbaord .box .dashboard-box p {
+    font-size: 12px;
+  }
+  .dashbaord .box .dashboard-bookings .box {
+    margin: 0 10px;
+  }
+  .dashbaord .box .dashboard-bookings .heading-messages h3 {
+    margin: 30px 10px 10px;
+  }
+  .dashbaord .box .dashbaord-reviews.box {
+    margin: 10px 10px;
+  }
+  .dashbaord .box .dashbaord-reviews .media {
+    margin: 10px 0;
+  }
+  .dashbaord .charts-section {
+    margin: 0px 5px;
+  }
+  .dashbaord .charts-section.box {
+    margin: 40px 10px;
+    padding: 30px 0;
+    border-radius: 10px;
+  }
+  .dashbaord .charts-section.box h4 {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .dashbaord .charts-section canvas {
+    margin: 20px 0px 10px 0;
+  }
+}
+
+/* ****************************Dashboard Media Queries End Here************************** */
+
+/*# sourceMappingURL=responsive.css.map */

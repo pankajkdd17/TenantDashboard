@@ -1,0 +1,137 @@
+/* ****************************Datatable Wrapper Pagination Starts Here************************** */
+.dataTables_wrapper table.dataTable.no-footer {
+  border-bottom: 1px solid #cccccc;
+}
+
+.dataTables_wrapper .dataTables_length {
+  margin: 20px 20px;
+}
+
+.dataTables_wrapper .dataTables_length label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dataTables_wrapper .dataTables_length label select {
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  margin: 20px 20px;
+}
+
+.dataTables_wrapper .dataTables_filter label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.dataTables_wrapper .dataTables_filter label input {
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  margin: 25px 40px 40px 40px;
+}
+
+.dataTables_wrapper .dataTables_paginate a.previous {
+  border-radius: 20px !important;
+  font-weight: 600 !important;
+  background: transparent !important;
+}
+
+.dataTables_wrapper .dataTables_paginate a.previous:hover {
+  background: #3333ff !important;
+  color: #f0f0f0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate a {
+  color: white !important;
+  background: transparent;
+  border-radius: 50% !important;
+  border: 1px solid #cccccc !important;
+  padding: 5px 10px;
+  font-size: 11px;
+}
+
+.dataTables_wrapper .dataTables_paginate a:hover {
+  background: #3333ff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
+  background: transparent;
+  color: #cccccc !important;
+}
+
+.dataTables_wrapper .dataTables_paginate span a.paginate_button.current {
+  background: #0000b3;
+  color: #f0f0f0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate span a {
+  border-radius: 50%;
+}
+
+.dataTables_wrapper .dataTables_paginate a.next {
+  border-radius: 20px !important;
+  font-weight: 600;
+}
+
+.dataTables_wrapper .dataTables_info {
+  margin: 25px 40px 40px 40px;
+  padding: 5px 0 0 0;
+}
+
+/* ****************************Datatable Wrapper Pagination Ends Here************************** */
+/* *********************Datatable Wrapper Pagination Media Queries Ends Here******************** */
+@media (max-width: 992px) {
+  .dataTables_wrapper .dataTables_length label {
+    font-size: 11px;
+  }
+  .dataTables_wrapper .dataTables_length label select {
+    font-size: 10px;
+  }
+  .dataTables_wrapper .dataTables_filter label {
+    font-size: 11px;
+  }
+  .dataTables_wrapper .dataTables_filter label input {
+    font-size: 11px;
+    padding: 0px;
+  }
+  .dataTables_wrapper .dataTables_paginate {
+    margin: 5px 40px 20px 40px;
+  }
+  .dataTables_wrapper .dataTables_paginate a {
+    padding: 2px 6px !important;
+    font-size: 10px;
+  }
+  .dataTables_wrapper .dataTables_info {
+    margin: 5px 40px 20px 40px;
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dataTables_wrapper .dataTables_length {
+    margin: 10px 20px;
+  }
+  .dataTables_wrapper .dataTables_filter {
+    margin: 10px 20px;
+  }
+  .dataTables_wrapper .dataTables_filter label input {
+    padding: 0px;
+  }
+  .dataTables_wrapper .dataTables_paginate {
+    margin: 0px 40px 20px 40px;
+  }
+  .dataTables_wrapper .dataTables_info {
+    margin: 0px 40px 10px 40px;
+  }
+}
+
+/* *********************Datatable Wrapper Pagination Media Queries Ends Here********************* */
+/*# sourceMappingURL=custom.datatables.css.map */

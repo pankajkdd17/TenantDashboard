@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from kiswa.net/themes/star-hotel/demo/demo-ltr/admin-demo-ltr/users-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 11:15:30 GMT -->
+<head>
+	<title>Users List</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	
+
+	<!-- Framework Stylesheets Start-->
+
+	<!-- Bootstrap Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min4.2.1.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot4.2.1.css">
+
+	<!-- Data Tables Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="vendors/datatables/datatables.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.datatables.css">
+	
+
+	<!-- Framework Stylesheets End-->
+
+	<!-- Font Awsome Stylesheet -->
+	<link rel="stylesheet" href="vendors/fontawesome5.7.2/css/all.min.css">
+
+	<!-- Custom Stylesheet Start-->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+	<!-- Custom Stylesheet End-->
+
+
+</head>
+
+<body>
+		
+	<!-- ===========wrapper============= -->
+	<div class="wrapper">
+				
+		<!-- ===========Top-Bar============= -->
+		<div class="top-bar">
+			<nav class="navbar">
+				<button class="navbar-toggler d-block sideMenuToggler" type="button">
+					<span class="fa fa-bars"></span>
+				</button>
+
+				<ul class="ml-auto list-unstyled nav-list list-inline d-flex my-auto">
+					<li class="nav-item list-inline-item">
+						<form class="form-inline my-2 my-lg-0 d-none d-xl-flex">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search"
+								aria-label="Search" />
+							<i class="fas fa-search"></i>
+						</form>
+					</li>
+					<li class="nav-item list-inline-item dropdown messages">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="far fa-envelope"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+							<span>Messages (5)</span>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#"><i class="far fa-envelope"></i>Your Order is
+								Placed<span>Lorem ipsum
+									dolor sit, amet consectetur adipisicing elit.
+									Nisi, maxime?</span>
+							</a>
+							<a class="dropdown-item" href="#"><i class="far fa-envelope-open"></i>New Message
+								Received<span>Lorem
+									ipsum dolor sit amet.</span></a>
+							<a class="dropdown-item bottom-margin" href="#"><i class="far fa-envelope-open"></i>Your
+								item is
+								Shipped<span>Lorem ipsum dolor sit amet consectetur adipisicing.</span></a>
+							<div class="dropdown-divider"></div>
+							<a href="#" class="btn mx-auto d-block">View All</a>
+						</div>
+					</li>
+					<li class="nav-item list-inline-item dropdown notifications">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="far fa-bell"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+							<span>Notifications (258)</span>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#"><i class="fas fa-cart-plus"></i>Your Order is
+								Placed<span>Lorem ipsum
+									dolor sit, amet consectetur adipisicing elit.
+									Nisi, maxime?</span>
+							</a>
+							<a class="dropdown-item" href="#"><i class="fas fa-sms"></i>New Message Received<span>Lorem
+									ipsum dolor
+									sit amet.</span></a>
+							<a class="dropdown-item bottom-margin" href="#"><i class="fas fa-glass-martini"></i>Your
+								item is
+								Shipped<span>Lorem ipsum dolor sit amet consectetur adipisicing.</span></a>
+							<div class="dropdown-divider"></div>
+							<a href="#" class="btn mx-auto d-block">View All</a>
+						</div>
+					</li>
+					<li class="nav-item list-inline-item dropdown profile">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<img src="images/commenter-1.jpg" alt="" class="img-fluid rounded-circle" width="30px" />
+						</a>
+
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="profile-view-profile.html"><i class="fas fa-user-alt"></i>
+								<span>View Profile</span></a>
+							<a class="dropdown-item" href="profile-edit-profile.html"><i class="fas fa-cog"></i>
+								<span>Edit Profile</span></a>
+							<a class="dropdown-item" href="profile-change-password.html"><i class="fas fa-unlock"></i>
+								<span>Change Password</span></a>
+							<a class="dropdown-item" href="#"><i class="fas fa-unlock"></i>
+								<span>Lock Screen</span></a>
+							<a href="#" class="btn d-block text-left"><i class="fas fa-power-off"></i>Logout</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div><!-- End top-bar -->
+				
+		<!-- =========== sidebar-left ============= -->
+		<div class="sidebar-left">
+			<div class="sidebar-topbar text-center">
+				<i class="fas fa-hotel"></i><span class="text">Star Hotel</span>
+			</div> <!-- End sidebar-topbar -->
+
+			<div class="side-menu">
+				<ul class="navbar-nav">
+
+					<li class="nav-item">
+						<div class="sidebar-header">
+							<img src="images/commenter-1.jpg" alt="sidebar-header-img" class="img-fluid rounded-circle">
+							<h5>John Doe</h5>
+							<small>
+								<p>Incharge</p>
+							</small>
+							<ul class="list-unstyled">
+								<li class="list-inline-item" data-toggle="tooltip" data-html="true" title="Messages"><a
+										class="sidebar-header-icons" href="messages-inbox.html"><i
+											class="far fa-envelope"></i></a></li>
+								<li class="list-inline-item" data-toggle="tooltip" data-html="true"
+									title="Notifications"><a class="sidebar-header-icons" href="#"><i
+											class="far fa-bell"></i></a></li>
+								<li class="list-inline-item" data-toggle="tooltip" data-html="true" title="Reviews"><a
+										class="sidebar-header-icons" href="reviews.html"><i class="far fa-star"></i></a>
+								</li>
+								<li class="list-inline-item" data-toggle="tooltip" data-html="true" title="Bookmarks"><a
+										class="sidebar-header-icons" href="bookmarks.html"><i
+											class="far fa-bookmark"></i></a></li>
+							</ul>
+						</div><!-- end sidebar-header -->
+					</li>
+					<li class="nav-item">
+						<a href="index.html" class="items-list first">
+							<span><i class="fa fa-home link-icon" data-toggle="tooltip" data-html="true"
+								title="Dashboard"></i></span>
+							<span class="items-list-text">Dashboard</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#users" class="items-list active" data-toggle="collapse" aria-expanded="false">
+							<span><i class="fas fa-user-tie" data-toggle="tooltip" data-html="true"
+								title="Users"></i></span>
+							<span class="items-list-text">Users</span>
+							<span><i class="fa fa-chevron-down arrow"></i></span>
+						</a>
+						<div class="collapse sub-menu" id="users">
+							<a class="items-list1" href="users-create-user.html">Create User</a>
+							<a class="items-list1 active" href="#">List</a>
+						</div><!-- End sub-menu -->
+					</li>
+					<li class="nav-item">
+
+							<a href="#Hotel-Listing" class="items-list" data-toggle="collapse" aria-expanded="false">
+								<span><i class="fas fa-hotel" data-toggle="tooltip" data-html="true"
+									title="Hotel"></i></span>
+								<span class="items-list-text">Hotel Listing</span>
+								<span><i class="fa fa-chevron-down arrow"></i></span>
+							</a>
+							<div class="collapse sub-menu" id="Hotel-Listing">
+								<a class="items-list1" href="listing-hotel-create.html">Create</a>
+								<a class="items-list1" href="listing-hotel-all.html">All</a>
+								<a class="items-list1" href="listing-hotel-active.html">Active</a>
+								<a class="items-list1" href="listing-hotel-drafts.html">Drafts</a>
+								<a class="items-list1" href="listing-hotel-expired.html">Expired</a>
+								<a class="items-list1" href="listing-hotel-featured.html">Featured</a>
+							</div>
+
+
+
+
+					</li>
+					<li class="nav-item">
+						<a href="#booking" class="items-list" data-toggle="collapse" aria-expanded="false">
+							<span><i class="fas fa-suitcase-rolling" data-toggle="tooltip" data-html="true"
+								title="Bookings"></i></span>
+							<span class="items-list-text">Booking</span>
+							<span><i class="fa fa-chevron-down arrow"></i></span>
+						</a>
+						<div class="collapse sub-menu" id="booking">
+							<a class="items-list1" href="bookings.html">All</a>
+							<a class="items-list1" href="bookings-approved.html">Approved</a>
+							<a class="items-list1" href="bookings-pending.html">Pending</a>
+							<a class="items-list1" href="bookings-cancelled.html">Cancelled</a>
+						</div><!-- End sub-menu -->
+					</li>
+					<li class="nav-item">
+						<a href="reviews.html" class="items-list">
+							<span><i class="fas fa-sync-alt" data-toggle="tooltip" data-html="true"
+								title="Reviews"></i></span>
+							<span class="items-list-text">Reviews</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="bookmarks.html" class="items-list">
+							<span><i class="far fa-bookmark" data-toggle="tooltip" data-html="true"
+								title="Messages"></i></span>
+							<span class="items-list-text">Bookmarks</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#messages" class="items-list" data-toggle="collapse" aria-expanded="false">
+<span><i class="far fa-envelope" data-toggle="tooltip" data-html="true" title="Messages"></i></span>
+							<span class="items-list-text">Messages</span>
+							<span><i class="fa fa-chevron-down arrow"></i></span>
+						</a>
+						<div class="collapse sub-menu" id="messages">
+							<a class="items-list1" href="messages-inbox.html">Inbox</a>
+							<a class="items-list1" href="messages-compose.html">Compose</a>
+							<a class="items-list1" href="messages-details.html">Details</a>
+							<a class="items-list1" href="messages-starred.html">Starred</a>
+							<a class="items-list1" href="messages-important.html">Important</a>
+							<a class="items-list1" href="messages-sent.html">Sent</a>
+							<a class="items-list1" href="messages-drafts.html">Drafts</a>
+							<a class="items-list1" href="messages-trash.html">Trash</a>
+						</div><!-- End sub-menu -->
+					</li>
+					<li class="nav-item">
+						<a href="#profile" class="items-list" data-toggle="collapse" aria-expanded="false">
+                            <span><i class="fas fa-building" data-toggle="tooltip" data-html="true" title="Profile"></i></span>
+							<span class="items-list-text">Profile</span>
+							<span><i class="fa fa-chevron-down arrow"></i></span>
+						</a>
+						<div class="collapse sub-menu" id="profile">
+							<a class="items-list1" href="profile-view-profile.html">View Profile</a>
+							<a class="items-list1" href="profile-edit-profile.html">Edit Profile</a>
+							<a class="items-list1" href="profile-change-password.html">Change Password
+
+							</a>
+						</div><!-- End sub-menu -->
+					</li>
+				</ul>
+			</div><!-- End side-menu -->
+			<div class="side-bar-bottom">
+				<ul class="list-unstyled">
+										<li class="list-inline-item" data-toggle="tooltip" data-html="true" title="Edit Profile"><a href="profile-edit-profile.html"><i class="fas fa-cog"></i></a></li>
+					<li class="list-inline-item" data-toggle="tooltip" data-html="true" title="Change Password"><a href="profile-change-password.html"><i class="fas fa-key"></i></li>
+					<li class="list-inline-item" data-toggle="tooltip" data-html="true" title="Lockscreen"><a href="#"><i class="fas fa-unlock"></i></a></li>
+					<li class="list-inline-item" data-toggle="tooltip" data-html="true" title="Logout"><a href="#"><i class="fas fa-power-off"></i></a></li>
+				</ul>
+			</div><!-- end side-bar-bottom -->
+		</div><!-- end sidebar-left -->
+
+
+		<!-- ===========Innerpage-wrapper============= -->
+		<section>
+			<div class="content listing-content users-list">
+				<div class="in-content-wrapper">
+					<div class="row no-gutters">
+
+						<div class="col">
+							<div class="heading-messages">
+								<h3>Users</h3>
+							</div><!-- End heading-messages -->
+						</div><!-- End column -->
+						<div class="col-md-4">
+							<div class="breadcrumb">
+								<div class="breadcrumb-item"><i class="fas fa-angle-right"></i><a href="#">Users</a>
+								</div>
+								<div class="breadcrumb-item active"><i class="fas fa-angle-right"></i>Users List
+								</div>
+							</div><!-- end breadcrumb -->
+						</div><!-- End column -->
+					</div><!-- end row -->
+
+					<div class="box">
+						<div class="row no-gutters">
+							<div class="col text-left">
+								<div class="add-new">
+									<a href="users-create-user.html">Add New<i class="fas fa-plus"></i></a>
+								</div><!-- End add-new-->
+							</div><!-- End column-->
+							<div class="col text-right">
+								<div class="tools-btns">
+									<a href="#"><i class="fas fa-print" data-toggle="tooltip" data-html="true"
+											title="Print"></i></a>
+									<a href="#"><i class="fas fa-file-pdf" data-toggle="tooltip" data-html="true"
+											title="Pdf"></i></a>
+									<a href="#"><i class="fas fa-file-excel" data-toggle="tooltip" data-html="true"
+											title="Excel"></i></a>
+								</div><!-- End tool-btns-->
+							</div><!-- End text-right-->
+
+						</div><!-- end row -->
+						<div class="row no-gutters">
+							<div class="col">
+								<table id="example" class="display table-hover table-responsive-xl listing">
+									<thead>
+										<tr>
+											<th>Img</th>
+											<th>#</th>
+											<th>First Name</th>
+											<th>Last Name</th>
+											<th>User Name</th>
+											<th>Email</th>
+											<th>Phone #</th>
+											<th>Status</th>
+											<th>Action</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>110</td>
+											<td><a href="#">John</a></td>
+											<td><a href="#">Doe</a></td>
+											<td>Doe22145</td>
+											<td>Doe22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="active"><a href="#">Active</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>120</td>
+											<td><a href="#">Maria</a></td>
+											<td><a href="#">Ben</a></td>
+											<td>maria22145</td>
+											<td>maria22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="expired"><a href="#">Expired</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car3.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>212</td>
+											<td><a href="#">Vensel</a></td>
+											<td><a href="#">Den</a></td>
+											<td>vensel22145</td>
+											<td>vensel22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="draft"><a href="#">Draft</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>214</td>
+											<td><a href="#">Habbil</a></td>
+											<td><a href="#">Nave</a></td>
+											<td>habbil22145</td>
+											<td>habbil22145@gmail.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>214</td>
+											<td><a href="#">Numan</a></td>
+											<td><a href="#">Foog</a></td>
+											<td>foog22145</td>
+											<td>foog22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>110</td>
+											<td><a href="#">John</a></td>
+											<td><a href="#">Doe</a></td>
+											<td>Doe22145</td>
+											<td>Doe22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="active"><a href="#">Active</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>120</td>
+											<td><a href="#">Maria</a></td>
+											<td><a href="#">Ben</a></td>
+											<td>maria22145</td>
+											<td>maria22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="expired"><a href="#">Expired</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car3.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>212</td>
+											<td><a href="#">Vensel</a></td>
+											<td><a href="#">Den</a></td>
+											<td>vensel22145</td>
+											<td>vensel22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="draft"><a href="#">Draft</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>214</td>
+											<td><a href="#">Habbil</a></td>
+											<td><a href="#">Nave</a></td>
+											<td>habbil22145</td>
+											<td>habbil22145@gmail.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>214</td>
+											<td><a href="#">Numan</a></td>
+											<td><a href="#">Foog</a></td>
+											<td>foog22145</td>
+											<td>foog22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>110</td>
+											<td><a href="#">John</a></td>
+											<td><a href="#">Doe</a></td>
+											<td>Doe22145</td>
+											<td>Doe22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="active"><a href="#">Active</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>120</td>
+											<td><a href="#">Maria</a></td>
+											<td><a href="#">Ben</a></td>
+											<td>maria22145</td>
+											<td>maria22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="expired"><a href="#">Expired</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car3.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>212</td>
+											<td><a href="#">Vensel</a></td>
+											<td><a href="#">Den</a></td>
+											<td>vensel22145</td>
+											<td>vensel22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="draft"><a href="#">Draft</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>214</td>
+											<td><a href="#">Habbil</a></td>
+											<td><a href="#">Nave</a></td>
+											<td>habbil22145</td>
+											<td>habbil22145@gmail.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>214</td>
+											<td><a href="#">Numan</a></td>
+											<td><a href="#">Foog</a></td>
+											<td>foog22145</td>
+											<td>foog22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>110</td>
+											<td><a href="#">John</a></td>
+											<td><a href="#">Doe</a></td>
+											<td>Doe22145</td>
+											<td>Doe22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="active"><a href="#">Active</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>120</td>
+											<td><a href="#">Maria</a></td>
+											<td><a href="#">Ben</a></td>
+											<td>maria22145</td>
+											<td>maria22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="expired"><a href="#">Expired</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car3.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>212</td>
+											<td><a href="#">Vensel</a></td>
+											<td><a href="#">Den</a></td>
+											<td>vensel22145</td>
+											<td>vensel22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="draft"><a href="#">Draft</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>214</td>
+											<td><a href="#">Habbil</a></td>
+											<td><a href="#">Nave</a></td>
+											<td>habbil22145</td>
+											<td>habbil22145@gmail.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>214</td>
+											<td><a href="#">Numan</a></td>
+											<td><a href="#">Foog</a></td>
+											<td>foog22145</td>
+											<td>foog22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>110</td>
+											<td><a href="#">John</a></td>
+											<td><a href="#">Doe</a></td>
+											<td>Doe22145</td>
+											<td>Doe22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="active"><a href="#">Active</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>120</td>
+											<td><a href="#">Maria</a></td>
+											<td><a href="#">Ben</a></td>
+											<td>maria22145</td>
+											<td>maria22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="expired"><a href="#">Expired</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car3.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>212</td>
+											<td><a href="#">Vensel</a></td>
+											<td><a href="#">Den</a></td>
+											<td>vensel22145</td>
+											<td>vensel22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="draft"><a href="#">Draft</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car1.jpg" alt="table-img"
+													class="img-fluid rounded-circle"></td>
+											<td>214</td>
+											<td><a href="#">Habbil</a></td>
+											<td><a href="#">Nave</a></td>
+											<td>habbil22145</td>
+											<td>habbil22145@gmail.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+										<tr>
+											<td><img src="images/car2.jpg" alt="table-img"
+													class="img-fluid rounded-circle" width="40px"></td>
+											<td>214</td>
+											<td><a href="#">Numan</a></td>
+											<td><a href="#">Foog</a></td>
+											<td>foog22145</td>
+											<td>foog22145@yahoo.com</td>
+											<td>923312440</td>
+											<td class="featured"><a href="#">Featured</a></td>
+											<td>
+												<a href="#"><i class="fas fa-edit"></i></a>
+												<a href="#"><i class="fas fa-trash-alt"></i></a>
+											</td>
+										</tr>
+
+									</tbody>
+								</table>
+							</div><!-- end column -->
+						</div><!-- end row -->
+					</div><!-- end box -->
+				</div><!-- end in-content-wrapper -->
+			</div><!-- end users-list -->
+		</section>
+		<!-- ===========End Innerpage-wrapper============= -->
+		
+	</div><!-- end wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Optional JavaScript, Not optional it's need too -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min4.2.1.js"></script>
+	<script src="vendors/datatables/datatables.min.js"></script>
+
+	<script src="js/customscriptfile.js"></script>
+
+	<!-- Page Scripts Ends -->
+
+	<script>
+		$(document).ready(function () {
+			$('#example').DataTable();
+		});
+	</script>
+</body>
+
+
+<!-- Mirrored from kiswa.net/themes/star-hotel/demo/demo-ltr/admin-demo-ltr/users-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 11:15:37 GMT -->
+</html>
